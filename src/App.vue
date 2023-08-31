@@ -2,19 +2,23 @@
   <div>
      <AppTopBar />
     <AppNavbar @toggleMenu="toggleNavbar" />
+<ChatCa />
     <AppCards :navbarOpen="navbarOpen" />
   </div>
 </template>
 
 <script>
 import AppTopBar from './components/AppTopBar.vue';
+
 import AppCards from './components/AppCards.vue';
+import ChatCa from './components/ChatCa.vue';
 import AppNavbar from './components/AppNavbar.vue';
 export default {
   components: {
     AppNavbar,
     AppCards,
     AppTopBar,
+    ChatCa
   },
   data() {
     return {
