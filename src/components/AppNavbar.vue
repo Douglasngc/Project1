@@ -34,7 +34,7 @@
   <style scoped>
   .side-menu {
     width: 250px;
-    background-color: #f1f1f1;
+    background-color: rgba(255, 255, 255, 0.829);
     position: fixed;
     top: 0;
     left: -250px;
@@ -83,6 +83,6 @@
     cursor: pointer;
   }
   .navbar{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: white;
   }
   </style>

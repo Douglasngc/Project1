@@ -22,7 +22,7 @@
 
   <style scoped>
   .top-bar {
-    background-color: #f1f1f1;
+    background-color: rgb(255, 255, 255);
     height: 50px;
     display: flex;
     justify-content: flex-end;

@@ -1,9 +1,13 @@
 <template>
   <div>
+    <body>
+      
+   
      <AppTopBar />
     <AppNavbar @toggleMenu="toggleNavbar" />
 <ChatCa />
     <AppCards :navbarOpen="navbarOpen" />
+  </body>
   </div>
 </template>
 
@@ -34,7 +38,10 @@ export default {
 </script>
 
 <style scoped>
-
+body{
+  background-image: url(./assets/slider-2.png);
+  background-size: cover;
+}
 
 </style>
 
