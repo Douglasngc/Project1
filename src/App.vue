@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppTopBar />
+     <AppTopBar />
     <AppNavbar @toggleMenu="toggleNavbar" />
     <AppCards :navbarOpen="navbarOpen" />
   </div>

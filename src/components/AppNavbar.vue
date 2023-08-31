@@ -42,7 +42,7 @@
     transition: left 0.3s;
     margin-top: 50px;
     padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
   }
 
   .side-menu.active {

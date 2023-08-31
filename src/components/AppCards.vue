@@ -1,7 +1,9 @@
 <template>
     <div>
+
+
       <div class="content" :style="contentStyles">
-        <h2>Notas</h2>
+
         <div class="notes">
           <div v-for="index in 10" :key="index" class="card">
             <p><strong>Nome:</strong> Douglas</p>
@@ -32,12 +34,13 @@
  <style scoped>
  .content {
   margin-top: 100px;
-  padding: 20px;
+  padding: 30px;
   transition: margin-left 0.3s; /* Adiciona uma transição suave */
 }
 
   .notes {
-    max-height: 300px;
+    margin-top:-100px;
+    max-height: 555px;
     max-width: 300px;
     overflow-y: scroll;
   }
