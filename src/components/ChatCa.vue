@@ -31,8 +31,8 @@
 
   <style scoped>
   .chat {
-    width: 800px;
-    height: 600px;
+    width: 700px;
+    height: 610px;
     overflow-y: scroll;
     box-shadow: 1px;
     border: 1px solid #ccc;
